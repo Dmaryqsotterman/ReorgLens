@@ -26,6 +26,5 @@ jobs:
         # the sample contains findings, so exit 1 is the expected result; anything
         # else (a usage error or a crash) must fail the job
         run: |
-          go run ./cmd/reorglens analyze samples/reorged.jsonl
-          code=$?
-          [ "$code" -eq 1 ] || exit 1
+          # `||` keeps `set -e` from aborting on the findings exit code before it is checked
+          go run ./cmd/reorglens analyze samples/reorged.jsonl || [ $? -eq 1 ]
