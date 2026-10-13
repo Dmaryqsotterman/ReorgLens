@@ -51,6 +51,11 @@ A malformed line does not stop the run. The parser reports the line number, the
 reason and skips it, then keeps going, so a truncated or hand-edited capture
 still produces a usable report. Samples for each case live in `samples/`.
 
+## Exit codes
+
+The command exits `0` when the capture is clean, `1` when it has findings and `2`
+for a usage or input error, so it can be used directly in a pipeline.
+
 ## License
 
 MIT - see `LICENSE`.
