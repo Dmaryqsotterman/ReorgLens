@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Documentation
+
+- Note the JSON output format in the README.
+
 ## [0.7.0] - 2026-05-18
 
 ### Added
