@@ -13,7 +13,7 @@ jobs:
         go: ['1.22', '1.23']
     steps:
       - uses: actions/checkout@v5
-      - uses: actions/setup-go@v6
+      - uses: actions/setup-go@v7
         with:
           go-version: ${{ matrix.go }}
       - name: vet
