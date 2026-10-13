@@ -4,8 +4,8 @@
 > were replaced and which transactions moved.
 
 ReorgLens reads a JSONL stream of block headers and transactions, follows the
-heaviest chain, and writes a report whenever a reorg is detected. It is a small,
-dependency-free Go tool built for operators who want a second opinion on what a
+heaviest chain, and writes a report whenever a reorg is detected. It is a small, dependency-free Go
+tool built for operators who want a second opinion on what a
 node actually did.
 
 ## Install
