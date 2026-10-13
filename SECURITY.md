@@ -12,5 +12,5 @@ to happen. You should get an answer within a few days.
 ## Scope
 
 ReorgLens parses untrusted input files. Anything that turns a malformed capture
-into a crash, an out-of-memory, or a report that misrepresents the chain is in
-scope.
+into a crash, an out-of-memory, or a report that misrepresents the chain,
+is in scope.
